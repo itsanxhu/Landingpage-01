@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.main-app {
+  max-width: 80rem;
+  margin: 0 auto;
+
+  border-left: 1px solid oklch(92.2% 0 0);
+  border-right: 1px solid oklch(92.2% 0 0);
+  border-bottom: 1px solid oklch(92.2% 0 0);
+}
+
+.header-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 25px;
+  border-bottom: 1px solid oklch(92.2% 0 0);
+}
+.header-parent .left {
+  font-size: 30px;
+  font-weight: 700;
+  color: oklch(64.5% 0.246 16.439);
+}
+.header-parent .header-right {
+  font-size: 18px;
+  font-weight: 500;
+}
+.header-right {
+  display: flex;
+  cursor: pointer;
+  gap: 25px;
+  color: oklch(37.1% 0 0);
+}
+.center-main p{
+  color: oklch(55.6% 0 0);
+}
+.header-right .Home:hover {
+  color: oklch(64.5% 0.246 16.439);
+  text-decoration: underline;
+}
+.header-right .About:hover {
+  color: oklch(64.5% 0.246 16.439);
+  text-decoration: underline;
+}
+.header-right .Services:hover {
+  color: oklch(64.5% 0.246 16.439);
+  text-decoration: underline;
+}
+.header-right .Education:hover {
+  color: oklch(64.5% 0.246 16.439);
+  text-decoration: underline;
+}
+.header-right .Experience:hover {
+  color: oklch(64.5% 0.246 16.439);
+  text-decoration: underline;
+}
+.header-right .Contact:hover {
+  color: oklch(64.5% 0.246 16.439);
+  text-decoration: underline;
+}
+
+.center-main {
+  height: 600px;
+  /* background: lightblue; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.center-main h1 {
+  font-size: 60px;
+}
+.center-main h1 span {
+  color: oklch(64.5% 0.246 16.439);
+}
+.center-main h3 span {
+  color: oklch(64.5% 0.246 16.439);
+}
+.center-main h3 {
+  font-size: 30px;
+}
+.center-main a img {
+  width: 40px;
+  border: 1px solid oklch(92.2% 0 0);
+  border-radius: 50%;
+}
+.center-main .links {
+  display: flex;
+  gap: 20px;
+}
+
+.links {
+  margin-top: 60px;
+}
+.links .github {
+  padding: 4px;
+}
+.btn {
+  margin-top: 40px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  border: 2px solid oklch(64.5% 0.246 16.439);
+  background: none;
+  cursor: pointer;
+  border-radius: 10px;
+  color: oklch(64.5% 0.246 16.439);
+}
+.btn:hover {
+  color: white;
+  background: hsl(345, 100%, 56%);
+}
